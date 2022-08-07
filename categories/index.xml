@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Liva | Personal Andy&#39;s blog template</title>
+    <link>https://wtcandy104323510.github.io/categories/</link>
+    <description>Recent content in Categories on Liva | Personal Andy&#39;s blog template</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Aug 2022 14:35:30 +0800</lastBuildDate><atom:link href="https://wtcandy104323510.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo practice</title>
+      <link>https://wtcandy104323510.github.io/categories/hugo-practice/</link>
+      <pubDate>Sun, 07 Aug 2022 14:35:30 +0800</pubDate>
+      
+      <guid>https://wtcandy104323510.github.io/categories/hugo-practice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go Language</title>
+      <link>https://wtcandy104323510.github.io/categories/go-language/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      
+      <guid>https://wtcandy104323510.github.io/categories/go-language/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

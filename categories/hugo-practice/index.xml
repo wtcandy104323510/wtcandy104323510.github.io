@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo practice on Liva | Personal Andy&#39;s blog template</title>
+    <link>https://wtcandy104323510.github.io/categories/hugo-practice/</link>
+    <description>Recent content in Hugo practice on Liva | Personal Andy&#39;s blog template</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Aug 2022 14:35:30 +0800</lastBuildDate><atom:link href="https://wtcandy104323510.github.io/categories/hugo-practice/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How To Use Hugo to create your own website</title>
+      <link>https://wtcandy104323510.github.io/blog/test/</link>
+      <pubDate>Sun, 07 Aug 2022 14:35:30 +0800</pubDate>
+      
+      <guid>https://wtcandy104323510.github.io/blog/test/</guid>
+      <description>Hello World
+I am Andy Huang
+一級標題 I am Andy Huang 二級標題I am Andy Huang 三級標題I am Andy Huang 六級標題I am Andy Huang I am Sandra, I like painting.</description>
+    </item>
+    
+  </channel>
+</rss>
