@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OpenCV practice on Liva | Personal Andy&#39;s blog template</title>
+    <link>https://wtcandy104323510.github.io/categories/opencv-practice/</link>
+    <description>Recent content in OpenCV practice on Liva | Personal Andy&#39;s blog template</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Wed, 05 Oct 2022 14:35:00 +0800</lastBuildDate><atom:link href="https://wtcandy104323510.github.io/categories/opencv-practice/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenCV practice</title>
+      <link>https://wtcandy104323510.github.io/blog/test_1/</link>
+      <pubDate>Wed, 05 Oct 2022 14:35:00 +0800</pubDate>
+      
+      <guid>https://wtcandy104323510.github.io/blog/test_1/</guid>
+      <description>OpenCV 人臉偵測學習 以《維京傳奇》劇照為例
+以 Anaconda 中的 Spyder 為編譯器來進行練習
+安裝 OpenCV 函式庫 pip install opencv-python 下載 OpenCV 官方的人臉特徵模型 https://github.</description>
+    </item>
+    
+  </channel>
+</rss>

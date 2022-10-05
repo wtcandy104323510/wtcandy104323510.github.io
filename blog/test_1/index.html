@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>Liva | Personal Andy&#39;s blog template</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is python OpenCV practice">
+  <meta name="author" content="Andy YC Huang">
+  <meta name="generator" content="Hugo 0.101.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://wtcandy104323510.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://wtcandy104323510.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://wtcandy104323510.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://wtcandy104323510.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://wtcandy104323510.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://wtcandy104323510.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://wtcandy104323510.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-237181149-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head><body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://wtcandy104323510.github.io"><img class="img-fluid"
+          src="https://wtcandy104323510.github.io/images/camera_1.png" alt="Liva | Personal Andy&#39;s blog template"></a>
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="desktop-view">
+          <ul class="navbar-nav mr-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-facebook"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-twitter-alt"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-instagram"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-github"></i></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="ti-linkedin"></i></a>
+            </li>
+            
+          </ul>
+        </div>
+
+        <a class="navbar-brand mx-auto desktop-view" href="https://wtcandy104323510.github.io"><img class="img-fluid"
+            src="https://wtcandy104323510.github.io/images/camera_1.png" alt="Liva | Personal Andy&#39;s blog template"></a>
+
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://wtcandy104323510.github.io/">Home</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://wtcandy104323510.github.io/about/">About Me</a>
+          </li>
+          
+          
+        </ul>
+
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://wtcandy104323510.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        
+        <a href="/categories/opencv-practice"
+          class="text-primary">Open cv practice</a>
+        
+        <h2>OpenCV practice</h2>
+        <div class="mb-3 post-meta">
+          <span>By Andy YC Huang</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>05 October 2022</span>
+          
+        </div>
+        
+        <div class="content mb-5">
+          <hr>
+<h3 id="opencv-人臉偵測學習">OpenCV 人臉偵測學習</h3>
+<p><br>
+<img src="/images/post/1005_FaceRec.jpg" alt="">
+以《維京傳奇》劇照為例</p>
+<p>以 Anaconda 中的 Spyder 為編譯器來進行練習</p>
+<h3 id="安裝-opencv-函式庫">安裝 OpenCV 函式庫</h3>
+<blockquote>
+<h5 id="pip-install-opencv-python">pip install opencv-python</h5>
+</blockquote>
+<h3 id="下載-opencv-官方的人臉特徵模型">下載 OpenCV 官方的人臉特徵模型</h3>
+<blockquote>
+<h5 id="httpsgithubcomopencvopencvtree4xdata"><a href="https://github.com/opencv/opencv/tree/4.x/data">https://github.com/opencv/opencv/tree/4.x/data</a></h5>
+</blockquote>
+<h3 id="人臉辨識程式">人臉辨識程式</h3>
+<pre tabindex="0"><code class="language-import" data-lang="import">
+# 讀取圖片   
+img = cv2.imread(&#39;1005.jpg&#39;)
+
+# 將圖片轉為灰階
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+# 讀取opencv的特徵模型xml檔
+pictPath = r&#39;E:\Wistron\Python\opencv\OpenCVDatabase\opencv\sources\data\haarcascades\haarcascade_frontalface_default.xml&#39;
+</code></pre><pre tabindex="0"><code>
+# 利用 opencv 的分類器建立辨識檔案物件
+faceCascade = cv2.CascadeClassifier(pictPath)
+
+# 偵測人臉
+faceRect = faceCascade.detectMultiScale(gray, 1.1, 5)    
+
+print(len(faceRect))
+
+# 利用 for 迴圈將偵測到的人臉繪製方框
+for (x, y, w, h) in faceRect:
+    cv2.rectangle(img, (x,y), (x+w,y+h), (0, 255, 0), 2)
+
+# 顯示繪製完的圖片
+cv2.imshow(&#39;img&#39;, img)
+
+cv2.waitKey(0)
+
+cv2.destroyAllWindows()
+</code></pre><h4 id="detectmultiscale-函式介紹">detectMultiScale() 函式介紹</h4>
+<pre tabindex="0"><code>faceRect = faceCascade.detectMultiScale(img, scaleFactor, minNeighbors)
+
+# img：圖片來源（建議使用灰階影像）
+# scaleFactor：前後圖片偵測的比例係數，係數愈大，縮小比例就愈快
+# minNeighbors：圖片被偵測到的次數依據，數字愈大，代表偵測條件愈嚴謹
+</code></pre><p>學習來源 : GrandmaCan -我阿嬤都會
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/xjrykYpaBBM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+<p>圖片來源 : <a href="https://www.porticomedia.com/entNewsC/showCP/1840123">https://www.porticomedia.com/entNewsC/showCP/1840123</a></p>
+
+        </div>
+
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "wtcandy104323510" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<script>
+  var indexURL = "https://wtcandy104323510.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://wtcandy104323510.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://wtcandy104323510.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://wtcandy104323510.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://wtcandy104323510.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://wtcandy104323510.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://wtcandy104323510.github.io/plugins/search/mark.js"></script>
+
+<script src="https://wtcandy104323510.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://wtcandy104323510.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>
